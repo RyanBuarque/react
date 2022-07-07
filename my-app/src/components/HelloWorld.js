@@ -1,6 +1,7 @@
-import Frase from './Frase'
-import SayMyName from './SayMyName'
-import Pessoa from './Pessoa'
+import Frase from './Frase';
+import SayMyName from './SayMyName';
+import Pessoa from './Pessoa';
+import List from './List';
 
 function HelloWorld() {
   const nome = 'Plutão'
@@ -16,6 +17,7 @@ function HelloWorld() {
         profissao="Habitat de marcianos"
         foto="https://via.placeholder.com/150"
       />
+      <List />
     </div>
   )
 }
